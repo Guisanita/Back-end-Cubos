@@ -1,4 +1,4 @@
-const idade = 3
+const idade = 30
 
 if (idade >= 18) {
     // Aqui fica o que roda apenas se a boolean for True
