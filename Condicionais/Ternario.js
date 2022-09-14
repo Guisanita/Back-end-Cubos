@@ -11,3 +11,4 @@ if (saldo > 1) {
 } else {
     console.log(`Seu saldo é ${saldo} centavos`);
 }
+
