@@ -1,7 +1,7 @@
 const palavra = "Alemanha"
 
 
-const encontrado = false
+let encontrado = false
 for (letra of palavra) {
     if (letra === "h") {
         console.log("Tem h");
