@@ -1,4 +1,4 @@
-const palavra = "Alemanha"
+const palavra = "Alemahhhhhhna"
 
 
 let encontrado = false
