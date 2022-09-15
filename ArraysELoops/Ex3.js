@@ -20,7 +20,7 @@ soma = soma + numerosAleatorios[indice]
 console.log(soma); */
 
 let indice = 0;
-let soma = numerosAleatorios[indice];
+let soma = 0;
 while (indice < numerosAleatorios.length) {
     soma = soma + numerosAleatorios[indice]
     indice++;
