@@ -1,3 +1,4 @@
 const nomesEstudantes = ["João", "Maria", "Joana"];
 
-console.log(nomesEstudantes.length);
+nomesEstudantes[3] = "Honorio";
+console.log(nomesEstudantes);
