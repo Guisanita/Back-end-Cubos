@@ -1,5 +1,5 @@
 const listaPaises = ["Brasil", "Argentina", "Chile", "Holanda", "Alemanha"];
 
-listaPaises.unshift("EUA");
+listaPaises.shift();
 
 console.log(listaPaises);
