@@ -1,4 +1,4 @@
-const nomesEstudantes = ["João", "Maria", "Joana"];
+const nomesEstudantes = ["João", "Maria", "Joana", "Giovani", "Renata"];
 
-nomesEstudantes[3] = "Honorio";
+nomesEstudantes[nomesEstudantes.length] = "Honorio";
 console.log(nomesEstudantes);
