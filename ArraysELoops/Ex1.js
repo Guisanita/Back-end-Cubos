@@ -1,5 +1,4 @@
 const listaPaises = ["Brasil", "Argentina", "Chile", "Holanda", "Alemanha"];
 
-listaPaises.shift();
 
-console.log(listaPaises);
+console.log(listaPaises[listaPaises.length - 1]);
