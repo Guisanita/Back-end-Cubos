@@ -4,7 +4,7 @@ const numerosAleatorios = [2, 3, 5, 6, 7, 9];
 
 console.log(soma); */
 
-let indice = 0
+/*let indice = 0
 let soma = numerosAleatorios[indice]
 indice++
 soma = soma + numerosAleatorios[indice]
@@ -17,6 +17,18 @@ soma = soma + numerosAleatorios[indice]
 indice++
 soma = soma + numerosAleatorios[indice]
 
+console.log(soma); */
+
+let indice = 0;
+let soma = numerosAleatorios[indice];
+
+while (indice < numerosAleatorios.length) {
+    indice++;
+    soma = soma + numerosAleatorios[indice];
+}
+
 console.log(soma);
+
+
 
 
