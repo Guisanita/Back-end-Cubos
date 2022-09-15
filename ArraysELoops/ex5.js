@@ -1,6 +1,6 @@
 let contagem = 10
 
-for (numero of contagem) {
-    console.log(numero);
-    numero = numero - 1
+while (contagem >= 0) {
+    console.log(contagem);
+    contagem = contagem - 1;
 }
