@@ -1,10 +1,16 @@
 const palavra = "Alemanha"
 
+
+const encontrado = false
 for (letra of palavra) {
     if (letra === "h") {
         console.log("Tem h");
-    } else {
-        console.log("Não tem h");
+        encontrado = true
+        break;
     }
+}
+
+if (!encontrado) {
+    console.log("Não tem h");
 }
 
