@@ -1,5 +1,5 @@
 const listaPaises = ["Brasil", "Argentina", "Chile", "Holanda", "Alemanha"];
 
-listaPaises.push("India");
+listaPaises.pop();
 
 console.log(listaPaises);
