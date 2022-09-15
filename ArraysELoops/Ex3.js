@@ -20,10 +20,10 @@ soma = soma + numerosAleatorios[indice]
 console.log(soma); */
 
 let indice = 0;
-let soma = 0
+let soma = numerosAleatorios[indice];
 while (indice < numerosAleatorios.length) {
+    soma = soma + numerosAleatorios[indice]
     indice++;
-    soma = soma + numerosAleatorios[indice];
 }
 
 console.log(soma);
