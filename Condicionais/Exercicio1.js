@@ -24,6 +24,6 @@ if (numeroParcelas === 1) {
     console.log(`Como você pagará à vista, o valor do produto é ${valorComDesconto}.`);
 } else {
     let parcela = valorCompra / numeroParcelas;
-    console.log(`Como você pagará em ${numeroParcelas} vezes, o valor de cada parcela é ${parcela.toFixed()}.`);
+    console.log(`Como você pagará em ${numeroParcelas} vezes, o valor de cada parcela é ${parcela.toFixed(2)}.`);
 }
 
