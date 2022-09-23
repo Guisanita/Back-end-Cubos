@@ -26,15 +26,7 @@ const pessoa = {
     Apelidos: ["Gui", "Lula"]
 }
 
-let textoCNH = "";
-
-if (pessoa.temCNH) {
-    textoCNH = "possui";
-} else {
-    textoCNH = "não possui";
-}
-
-
+const textoCNH = pessoa.temCNH ? "possui" : "não possui";
 
 console.log(`${pessoa.nome} tem ${pessoa.idade} anos, ${pessoa.altura}m de altura, ${textoCNH} CNH e os seguintes apelidos:`);
 for (let apelido of pessoa.Apelidos) {
