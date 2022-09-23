@@ -27,4 +27,4 @@ console.log(cliente.idade);
 cliente.idade = 45;
 console.log(cliente.idade);
 console.log(cliente.produto[0].nomeProduto);
-console.log(cliente.produto[2].precoUnitario);
+console.log(cliente.produto[cliente.produto.length - 1].precoUnitario);
