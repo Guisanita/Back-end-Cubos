@@ -1,7 +1,7 @@
 const produtosConsumidos = [
     {
         nomeProduto: "Cerveja",
-        precoUnitario: 8500,
+        precoUnitario: 850,
         quantidadeProduto: 4
     },
     {
@@ -25,9 +25,9 @@ const cliente = {
 let somaComanda = 0;
 
 for (let item of produtosConsumidos) {
-    item = produtosConsumidos.precoUnitario * produtosConsumidos.quantidadeProduto;
-    somaComanda = somaComanda + item;
+    somaComanda = somaComanda + (item.precoUnitario * item.quantidadeProduto);
 }
 
-console.log(somaComanda);
+somaComanda = (somaComanda / 100).toFixed(2);
+
 console.log(`${cliente.nome} obrigado por nos visitar, o valor da sua conta é de R$ ${somaComanda}. Até mais e esperamos você mais vezes.`)
