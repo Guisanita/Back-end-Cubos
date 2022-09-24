@@ -28,4 +28,7 @@ for (let item of produtosConsumidos) {
     somaComanda = somaComanda + (item.precoUnitario * item.quantidadeProduto);
 }
 
-console.log(`${cliente.nome} obrigado por nos visitar, o valor da sua conta é de R$ ${(somaComanda / 100).toFixed(2)}. Até mais e esperamos você mais vezes.`)
+console.log(`${cliente.nome} obrigado por nos visitar, o valor da sua conta é de R$ ${(somaComanda / 100).toFixed(2)}. Até mais e esperamos você mais vezes.`);
+
+
+
