@@ -9,8 +9,8 @@ const pessoa = {
 // const nome = pessoa.nome;
 // const peso = pessoa.peso;
 
-const { nome, peso } = pessoa;
+const { nome, peso, ...outros } = pessoa;
 
 
 
-console.log(nome, peso);
+console.log(nome, peso, outros);
