@@ -6,7 +6,11 @@ const pessoa = {
     profissao: "Dev"
 }
 
-const nome = pessoa.nome;
-const peso = pessoa.peso;
+// const nome = pessoa.nome;
+// const peso = pessoa.peso;
+
+const { nome, peso } = pessoa;
+
+
 
 console.log(nome, peso);
