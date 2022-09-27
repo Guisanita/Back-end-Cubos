@@ -9,3 +9,4 @@ function faixaEtaria(idade) {
 }
 
 console.log(faixaEtaria(50));
+
