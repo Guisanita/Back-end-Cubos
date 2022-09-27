@@ -1,4 +1,4 @@
-const pessoa = {
+const pessoaObj = {
     nome: "José",
     idade: 66,
     profissao: "Dev",
@@ -19,4 +19,4 @@ function cumprimento(pessoa) {
 
 }
 
-cumprimento(pessoa);
+cumprimento(pessoaObj);
