@@ -1,4 +1,5 @@
-const numeroComPonto = "97.50";
+const numero = 97.50;
+const numeroComPonto = String(numero);
 
 const numeroComVirgula = numeroComPonto.replace(".", ",");
 
