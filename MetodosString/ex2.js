@@ -1,13 +1,8 @@
-const numeroComVirgula = "1,350,000";
+let numero = "1,350,000";
 
-let numeroComPonto = numeroComVirgula.replace(",", ".");
-
-for (let i = 0; i < numeroComVirgula.length; i++) {
-    numeroComPonto
+while (numero !== numero.replace(",", ".")) {
+    numero = numero.replace(",", ".");
 }
 
-
-console.log(numeroComPonto);
-console.log(numeroComVirgula);
-
+console.log(numero)
 
