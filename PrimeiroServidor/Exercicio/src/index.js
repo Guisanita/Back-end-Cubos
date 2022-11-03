@@ -14,4 +14,6 @@ app.get("/usuarios", (requisicao, resposta) => {
     resposta.send(usuarios)
 });
 
-app.listen(3000);
+app.listen(3000, () => {
+    console.log("Servidor inicializado na porta 3000");
+});
