@@ -1,0 +1,44 @@
+{
+    "sales": [
+        {
+            "product": {
+                "id": 1,
+                "name": "TV Samsung 4K",
+                "value": 129900
+            },
+            "quantity": 5
+        },
+        {
+            "product": {
+                "id": 3,
+                "name": "Mouse MX Master 3",
+                "value": 23000
+            },
+            "quantity": 1
+        },
+        {
+            "product": {
+                "id": 6,
+                "name": "Carregador portátil",
+                "value": 4590
+            },
+            "quantity": 1
+        },
+        {
+            "product": {
+                "id": 6,
+                "name": "Carregador portátil",
+                "value": 4590
+            },
+            "quantity": 1
+        },
+        {
+            "product": {
+                "id": 1,
+                "name": "TV Samsung 4K",
+                "value": 129900
+            },
+            "quantity": 1
+        }
+    ]
+}
