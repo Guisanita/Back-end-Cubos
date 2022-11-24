@@ -40,12 +40,12 @@ const sale = async (req, res) => {
 
         await fs.writeFile("./src/json/sales.json", saleJson);
 
-        return res.status(200).json('Venda cadastrada com sucesso.');
+        return res.status(201).json('Venda cadastrada com sucesso.');
 
     } catch (error) {
         // console.log(error);
         // console.log(sales)
-        return res.json(error.message);
+        return res.status(500).json(error.message);
     }
 
 }
