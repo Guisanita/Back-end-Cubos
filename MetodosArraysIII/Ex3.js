@@ -22,3 +22,15 @@ function encontrarMaiorIdade(arrayObjetos) {
 }
 
 encontrarMaiorIdade(usuarios);
+
+//Resolução professor
+
+const maiorNumero = usuarios.reduce((acumulador, elementoAtual) => {
+    let maior = acumulador;
+    if (elementoAtual.idade > acumulador.idade) {
+        maior = elementoAtual;
+    }
+    return maior;
+})
+
+console.log(maiorNumero);

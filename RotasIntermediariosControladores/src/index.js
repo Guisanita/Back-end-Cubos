@@ -10,5 +10,3 @@ app.get("/cars/:id", foundCar);
 
 
 app.listen(3000);
-
-//teste
